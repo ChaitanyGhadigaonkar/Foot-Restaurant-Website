@@ -1,0 +1,286 @@
+@media screen and (max-width: 1833px) {
+
+    .servSection {
+        margin: 0px auto;
+    }
+
+}
+
+@media screen and (max-width: 1566px) {
+    #ac2 img {
+        height: 296px;
+        width: 350px;
+    }
+
+    #ac3 img {
+        height: 300px;
+        width: 350px;
+        margin: 0px;
+    }
+
+    .menu-items {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 1378px) {
+
+    .about-content p {
+        text-align: center;
+
+    }
+
+    #ac2 img {
+        height: 200px;
+        width: 200px;
+    }
+
+    #ac3 img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 1229px) {
+    .serBox img {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .nav {
+        width: 750px;
+    }
+
+
+}
+
+@media screen and (max-width: 1081px) {
+    .headlines {
+        margin: 0px auto;
+    }
+
+    .ac {
+        display: flex;
+        flex-direction: column;
+        margin: 15px 150px;
+        height: fit-content;
+    }
+
+    .about-us {
+        height: fit-content;
+    }
+
+    .about-content {
+        margin: 0px auto;
+        justify-content: flex-start;
+        height: 350px;
+    }
+
+    #ac2 {
+        justify-content: flex-start;
+        height: fit-content;
+    }
+
+    #ac3 {
+        justify-content: flex-start;
+        height: fit-content;
+    }
+
+    #ac2 img {
+        height: 300px;
+        width: 400px;
+
+    }
+
+    #ac3 img {
+        height: 300px;
+        width: 400px;
+        margin: 0px;
+    }
+
+    .the-menu {
+        height: fit-content;
+    }
+
+
+    .menu-items {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .servSection {
+        flex-direction: column;
+        align-items: center;
+    }
+    .serBox {
+        justify-content: flex-start;
+        height:fit-content ;
+        width: 400px;
+    }
+    .serBox img{
+        width: 400px;
+    }
+    
+
+.serBox h3 {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+.servP{
+    font-size: 20px;
+}
+.th-h1 p {
+    width: 100vw;
+}
+.reservation p {
+    width: 100vw;
+}
+.service-h1 p{
+    width: 100vw;
+}
+}
+
+@media screen and (max-width: 937px) {
+    .navbar{
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        transition: all 0.7s ease-out;
+       
+    }
+    .nav{
+        position: initial;
+      
+    }
+    .nav-content{
+        flex-direction: column;
+    }
+
+    .logo img{
+        margin-left: 0px;
+    }
+    /* Hamburger */
+.hamburger{
+    height: 35px;
+    width:50px;
+    display: flex;
+    flex-direction: column;
+    /* display: none; */
+    position: absolute;
+    left: 20px;
+    top: 16px;
+    
+
+}
+.headlines{
+    /* position:absolute;
+    left: 50px; */
+
+}
+.h-line{
+    height: 2px;
+    border: 2px solid white;
+    margin: 2px;
+    border-radius: 5px;
+}
+.h-nav{
+    height: 60px;
+}
+.visiblity-class{
+    opacity: 0;
+}
+}
+
+@media screen and (max-width: 809px){
+    .headlines{
+        /* margin: 10px auto;
+        /* width:fit-content; */
+        /* left: auto; */ 
+    }
+    .headlines h1{
+        /* /* margin: 0px auto; */
+         font-size: 35px; 
+    }
+    .headlines p{
+        margin: 0px auto;
+    }
+    .btn{
+        margin: 0px auto;
+    }
+    .ac{
+        width: fit-content;
+        margin: 15px auto;
+    }
+    .reserv-container{
+             height: 300px;
+    }
+
+}
+@media screen and (max-width:591px){
+     p {
+        width: fit-content;
+    }
+    footer p{
+        margin: 11px auto;
+    }
+    .pizza img{
+        width: 100vw;
+    }
+}
+@media screen and (max-width:591px){
+    #ac2 img {
+        height: 300px;
+        width: 300px;
+
+    }
+
+    #ac3 img {
+        height: 300px;
+        width: 300px;
+        
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    flex-direction: column;
+    }
+    .item img {
+        height: 260px;
+        width: 300px;
+      
+    }
+    .serBox img {
+        width: 300px;
+    }
+}
+@media screen and (max-width:430px){
+    .about-content {
+        /* border: 2px solid black; */
+        width: auto;
+    }
+    .serBox {
+        width: auto;
+    }
+    .item{
+        width: auto;
+    } 
+    .contact-form form input{
+        width: 300px;
+        
+    }
+    #more{
+        width: 300px;
+        
+    }
+    .headlines p {
+        font-size: 20px;
+    }
+    .headlines h1 {
+        font-size: 30px;
+}
+}
