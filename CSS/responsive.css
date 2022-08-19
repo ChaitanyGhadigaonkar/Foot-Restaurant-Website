@@ -103,7 +103,9 @@
         height: fit-content;
     }
 
-
+    .th-h1 p{
+        width: 80vw;
+    }
     .menu-items {
         flex-direction: column;
         height: fit-content;
@@ -131,14 +133,12 @@
 .servP{
     font-size: 20px;
 }
-.th-h1 p {
-    width: 100vw;
-}
+
 .reservation p {
-    width: 100vw;
+    width: 80vw;
 }
 .service-h1 p{
-    width: 100vw;
+    width: 80vw;
 }
 }
 
@@ -154,6 +154,7 @@
     }
     .nav{
         position: initial;
+        width: 100vw;
       
     }
     .nav-content{
@@ -192,6 +193,8 @@
 }
 .visiblity-class{
     opacity: 0;
+    display: none;
+
 }
 }
 
@@ -200,6 +203,7 @@
         /* margin: 10px auto;
         /* width:fit-content; */
         /* left: auto; */ 
+        width: 330px;
     }
     .headlines h1{
         /* /* margin: 0px auto; */
@@ -282,5 +286,11 @@
     }
     .headlines h1 {
         font-size: 30px;
+}
+.service-h1 p {
+    width: 80vw;
+}
+.th-h1 p {
+    width: 80vw;
 }
 }
